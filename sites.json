@@ -1,0 +1,908 @@
+[
+ {
+  "name": "snitch",
+  "base_url": "https://www.snitch.co.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "andamen",
+  "base_url": "https://www.andamen.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "bananaclub",
+  "base_url": "https://www.bananaclub.co.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "blackberrys",
+  "base_url": "https://www.blackberrys.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "campussutra",
+  "base_url": "https://www.campussutra.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "jadeblue",
+  "base_url": "https://www.jadeblue.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "jompers",
+  "base_url": "https://www.jompers.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "kisah",
+  "base_url": "https://kisah.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "powerlook",
+  "base_url": "https://www.powerlook.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "sojanya",
+  "base_url": "https://www.sojanya.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "thebearhouse",
+  "base_url": "https://thebearhouse.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "wrogn",
+  "base_url": "https://www.wrogn.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "houseofmen",
+  "base_url": "https://houseofmen.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "mydesignation",
+  "base_url": "https://www.mydesignation.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "sanwara",
+  "base_url": "https://www.sanwara.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "default_gender": "men",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "almostgods",
+  "base_url": "https://almostgods.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "menswear"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "men_accessory_collections": [
+   "mens-accessories",
+   "hatsandcapsmenswear"
+  ]
+ },
+ {
+  "name": "capsul",
+  "base_url": "https://www.capsul.co.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "mens-streetwear"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "fugazee",
+  "base_url": "https://www.fugazee.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "mens-tops",
+   "mens-bottoms"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "urbanmonkey",
+  "base_url": "https://www.urbanmonkey.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "mens-collection",
+   "men-apparel"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "offduty",
+  "base_url": "https://www.offduty.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "collection-men"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "canvasandweaves",
+  "base_url": "https://canvasandweaves.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "men"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "manan",
+  "base_url": "https://www.manandesign.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "brunch-mens",
+   "festive-mens",
+   "drinks-mens",
+   "coffee-mens"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "houseofmasaba",
+  "base_url": "https://www.houseofmasaba.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "masaba-man",
+   "menswear"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "fuaark",
+  "base_url": "https://www.fuaark.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "men"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "men_accessory_collections": [
+   "mens-gym-trucker-baseball-caps-india"
+  ]
+ },
+ {
+  "name": "saphed",
+  "base_url": "https://saphed.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "saphed-man"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "vastramay",
+  "base_url": "https://www.vastramay.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "mens-shop-all"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "nicobar",
+  "base_url": "https://www.nicobar.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "menswear",
+   "all-men"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "nobero",
+  "base_url": "https://nobero.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "casuals-for-men"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "men_accessory_collections": [
+   "caps-for-men"
+  ]
+ },
+ {
+  "name": "dennislingo",
+  "base_url": "https://www.dennislingo.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "mens_all"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "underratedclub",
+  "base_url": "https://underratedclub.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "premium-streetwear-for-men"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "boldfit",
+  "base_url": "https://www.boldfit.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "men"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "men_accessory_collections": [
+   "men-sneakers"
+  ]
+ },
+ {
+  "name": "jodi",
+  "base_url": "https://www.thejodilife.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "men_collections": [
+   "jodi-man"
+  ],
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "houseofrare",
+  "base_url": "https://www.thehouseofrare.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "styleunion",
+  "base_url": "https://www.styleunion.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "chkokko",
+  "base_url": "https://www.chkokko.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "bonkerscorner",
+  "base_url": "https://www.bonkerscorner.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "ethnicplus",
+  "base_url": "https://www.ethnicplus.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "okhai",
+  "base_url": "https://www.okhai.org",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "bluorng",
+  "base_url": "https://www.bluorng.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "six5six",
+  "base_url": "https://six5sixstreet.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "jaywalking",
+  "base_url": "https://jaywalking.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ }
+]

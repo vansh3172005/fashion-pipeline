@@ -1,0 +1,7 @@
+requests>=2.31
+numpy>=1.26
+pillow>=10.0
+scipy>=1.11
+# flat-image "cloth" segmenter (downloads a 176 MB model on first use)
+rembg[cpu]>=2.0.60
+pyyaml

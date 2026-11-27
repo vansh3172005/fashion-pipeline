@@ -1,0 +1,23 @@
+data/
+web/catalogue.json
+web/flat/
+__pycache__/
+.pytest_cache/
+live_url.txt
+cloudflared.exe
+web/sketch/
+data/raw/
+
+# virtualenvs
+.venv*/
+venv/
+
+# generated catalogue outputs (rebuilt by the pipeline)
+web/catalogue_women.json
+web/sketch_women/
+
+# share package is assembled by share/make_package.py
+share/style-catalogue-api/data/
+share/style-catalogue-api/static/
+share/style-catalogue-api/web/
+share/*.zip

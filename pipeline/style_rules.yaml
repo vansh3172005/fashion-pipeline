@@ -1,0 +1,243 @@
+# Style rules (see style_taxonomy.md, sections 5 and 7).
+# Phrases are in classify.norm() form: lowercase, no punctuation, whole words.
+# Additions to the taxonomy's starting lists are marked "# +".
+version: 1
+thresholds: {min_score: 3, relative: 0.5, max_tags: 3}
+weights: {strong: 3, medium: 2, weak: 1, negative: -2, prior: 2, palette: 1, fabric: 1,
+          description_cap: 3}
+tie_order: [traditional, ethnic_fusion, glam, streetwear, sporty, boho, classic, minimalist]
+
+styles:
+  minimalist:
+    strong: ["minimalist", "minimal", "essential", "solid", "plain", "clean"]
+    medium: ["band collar", "mandarin collar", "straight fit", "relaxed fit", "overshirt", "basic",
+             "everyday essential"]                                    # +
+    weak: ["neutral", "everyday", "classic fit"]
+    negative: ["graphic", "printed", "print", "logo", "embroidered", "sequin", "tie dye", "distressed",
+               "floral", "camo", "slogan", "striped", "stripe", "stripes", "pinstriped",
+               "checked", "checks", "check", "plaid", "abstract"]   # +
+    palette: ["black", "white", "grey", "navy", "beige", "olive"]
+    fabrics: ["cotton", "linen", "wool"]
+  classic:
+    strong: ["oxford", "formal", "tailored", "chinos", "chino", "dress shirt", "blazer",
+             "formals", "suit", "waistcoat"]                          # +
+    medium: ["polo", "striped", "checked", "check", "straight jeans", "trousers",
+             "work shirt", "button down", "pleated", "office wear", "plaid"]  # +
+    weak: ["smart casual", "office", "timeless", "heritage", "cotton stretch", "slim fit",
+           "regular fit"]
+    negative: ["oversized", "graphic", "baggy", "cropped", "distressed", "neon", "kurta"]
+    palette: ["white", "navy", "blue", "grey", "brown", "beige"]
+    fabrics: ["cotton", "wool"]
+  streetwear:
+    strong: ["streetwear", "oversized", "graphic", "baggy", "drop shoulder", "cargo", "varsity",
+             "street wear", "acid wash", "puff print", "boxy fit"]    # +
+    medium: ["hoodie", "puffer", "distressed", "washed", "patchwork", "anime", "utility", "boxy",
+             "wide leg", "co ord", "parachute", "bomber", "typography", "marvel", "skater"]  # +
+    weak: ["urban", "street", "logo", "print", "printed", "slogan", "tee", "denim jacket"]
+    negative: ["formal", "tailored", "kurta", "sherwani", "formals", "linen"]
+    palette: []
+    fabrics: ["fleece", "denim"]
+  boho:
+    strong: ["boho", "bohemian", "kaftan", "tie dye", "block print", "ikat", "crochet", "macrame",
+             "fringe", "tassel", "block printed", "hand block printed", "batik", "shibori", "kantha",
+             "hand embroidered", "watercolour"]  # +
+    medium: ["paisley", "floral", "tribal", "hand painted", "hand block", "camp collar printed",
+             "printed linen", "artisanal", "shacket", "dabu", "kalamkari print", "tropical",
+             "hawaiian", "resort shirt"]                              # +
+    weak: ["earthy", "relaxed", "resort", "printed", "linen", "handcrafted"]
+    negative: ["formal", "tailored", "sport", "gym", "sequin", "graphic", "anime"]
+    palette: ["orange", "yellow", "brown", "green"]
+    fabrics: ["linen", "cotton"]
+  sporty:
+    strong: ["activewear", "athleisure", "gym", "training", "running", "dry fit", "quick dry",
+             "moisture wicking", "performance", "track pants", "joggers", "jogger", "dri fit",
+             "trackpants", "workout", "tracksuit", "track jacket", "compression"]                    # +
+    medium: ["track jacket", "compression", "sports", "workout", "athletic", "jersey",
+             "tracksuit", "gym vest", "tank top", "shorts", "sweat wicking", "rapid dry",
+             "4 way stretch", "football", "cricket"]                  # +
+    weak: ["active", "sweat", "lounge", "sweatpants", "breathable", "mesh", "stretch"]
+    negative: ["formal", "sherwani", "kurta", "embroidered", "linen", "formals", "jeans", "denim",
+               "baggy"]
+    palette: []
+    fabrics: ["polyester", "nylon", "elastane"]
+  glam:
+    strong: ["embellished", "sequin", "sequinned", "zari", "velvet", "brocade", "party wear",
+             "wedding", "reception", "groom", "tuxedo", "sherwani", "mirror work", "zardozi",
+             "partywear", "sangeet"]                                  # +
+    medium: ["embroidered", "satin", "jacquard", "metallic", "bandhgala", "festive", "occasion",
+             "statement", "luxe", "silk", "embroidery", "shimmer", "lurex", "foil"]  # +
+    weak: ["gold", "royal", "rich", "celebration", "party"]
+    negative: ["gym", "training", "plain tee", "basic", "joggers"]
+    palette: ["black", "red", "purple"]
+    fabrics: ["silk", "velvet", "satin"]
+  ethnic_fusion:
+    strong: ["indo western", "indowestern", "fusion", "kurta jacket", "jacket set", "dhoti pants",
+             "asymmetric kurta", "indo western set", "jodhpuri", "short kurta"]  # +
+    medium: ["nehru jacket", "cape", "kurta shirt", "co ord kurta", "kurta with jacket",
+             "shacket kurta", "ethnic print bomber", "bandhgala", "modi jacket", "bundi",
+             "kurta with jeans", "ethnic jacket"]                     # +
+    weak: ["modern ethnic", "contemporary kurta", "bandi", "contemporary"]
+    negative: ["gym", "training"]
+    palette: []
+    fabrics: []
+  traditional:
+    strong: ["kurta", "kurta set", "pyjama", "pathani", "sherwani", "dhoti", "mundu", "veshti",
+             "lungi", "angrakha", "kurta pyjama", "churidar", "kurtas"]  # +
+    medium: ["bandi", "nehru jacket", "chikankari", "bandhani", "ajrakh", "kalamkari", "banarasi",
+             "khadi", "handloom", "lucknowi", "phulkari", "churidar", "bandhgala", "ethnic wear",
+             "ethnicwear", "dhoti kurta", "salwar"]                    # +
+    weak: ["ethnic", "festive", "puja", "diwali", "eid", "handwoven", "craft", "traditional"]
+    negative: ["graphic", "oversized", "gym", "baggy"]
+    palette: []
+    fabrics: ["khadi", "cotton", "silk"]
+
+# Descriptions often suggest what to pair an item with ("style it with chinos"),
+# so garment nouns and dress-code words only count in the title, type, tags and
+# labelled fields.
+description_ignore: ["trousers", "chinos", "chino", "blazer", "suit", "polo", "joggers", "jogger",
+  "shorts", "kurta", "kurtas", "kurta set", "kurta pyjama", "pyjama", "hoodie", "tee", "jeans",
+  "sherwani", "track pants", "trackpants", "tracksuit", "nehru jacket", "jacket set", "waistcoat",
+  "dhoti", "churidar", "bandhgala", "bandi", "dress shirt", "formal", "formals", "tailored",
+  "office", "office wear", "work shirt", "denim jacket", "co ord", "kurta jacket", "overshirt",
+  "shacket", "bomber", "puffer", "cargo", "varsity", "tank top", "gym vest", "streetwear",
+  "street wear", "street", "urban", "party", "wedding", "reception", "occasion", "festive"]
+# A style needs at least one strong or medium keyword (a brand prior alone is not enough);
+# palette, fabric and weak words alone cannot lift it above this score.
+no_evidence_cap: 2
+
+# Signature cues used by the conflict rules (section 3)
+cues:
+  embellishment: ["embellished", "embroidered", "embroidery", "sequin", "sequinned", "zari",
+                  "zardozi", "mirror work", "brocade", "velvet", "beaded", "stone work",
+                  "thread work", "metallic", "foil"]
+  fusion: ["indo western", "indowestern", "fusion"]
+  western_garment: ["jeans", "denim", "jacket", "bomber", "shirt collar", "blazer", "shacket"]
+  print: ["print", "printed", "prints", "graphic", "pattern", "patterned", "floral", "paisley",
+          "tie dye", "camo", "slogan", "logo", "typography", "abstract", "geometric"]
+  sport: ["gym", "training", "running", "activewear", "athleisure", "dry fit", "dri fit",
+          "performance", "sports", "workout", "quick dry"]
+  street_bottom: ["oversized", "baggy", "cargo", "cargos", "graphic", "wide leg", "parachute"]
+  boho_signature: ["kantha", "tie dye", "kaftan", "block print", "block printed", "hand block", "ikat",
+                   "batik", "shibori", "crochet", "fringe", "tassel", "boho", "bohemian"]
+
+neutral_colors: [black, white, grey, navy, beige]
+
+# Section 4 brand priors, keyed by site name (sites.json "name") or vendor
+brand_priors:
+  snitch: [streetwear, classic]
+  six5six: [streetwear, sporty, minimalist]
+  bluorng: [streetwear]
+  almostgods: [streetwear]
+  jaywalking: [streetwear]
+  underratedclub: [streetwear]
+  houseofmen: [streetwear, minimalist]
+  chkokko: [sporty]
+  saphed: [minimalist, classic, traditional]
+  manan: [boho, minimalist]
+  andamen: [minimalist, classic]
+  kisah: [traditional, ethnic_fusion, glam]
+  sojanya: [traditional, ethnic_fusion]
+  houseofmasaba: [glam, boho]
+  # sites added after checking feeds (not in the taxonomy's table; verify in the audit)
+  bonkerscorner: [streetwear]
+  thebearhouse: [classic, minimalist]
+  powerlook: [streetwear, classic]
+  urbanmonkey: [streetwear]
+  fugazee: [streetwear]
+  nobero: [streetwear, sporty]
+  vastramay: [traditional, ethnic_fusion, glam]
+  houseofrare: [classic, minimalist]
+  offduty: [streetwear]
+  campussutra: [streetwear, classic]
+  mydesignation: [streetwear, boho]
+  nicobar: [minimalist, boho]
+  okhai: [boho, traditional]
+  jompers: [traditional, ethnic_fusion]
+  dennislingo: [classic, minimalist]
+  wrogn: [streetwear, classic]
+  blackberrys: [classic]
+  fuaark: [sporty]
+  boldfit: [sporty]
+  jadeblue: [classic, traditional]
+  jodi: [boho, traditional]
+  styleunion: [minimalist, classic]
+  bananaclub: [classic]
+  sanwara: [traditional, glam]
+  ethnicplus: [glam, traditional]
+  # canvasandweaves and capsul are multi-brand: priors per vendor (capsul vendors are
+  # filled in below from its men's streetwear collection)
+  pleasures: [streetwear]
+  thrasher: [streetwear]
+  market: [streetwear]
+  three men: [minimalist, classic]
+  mati men: [boho, minimalist]
+  saphed men: [minimalist, classic, traditional]
+  turn black: [minimalist]
+  manan men: [boho, minimalist]
+  cord men: [minimalist]
+  khara kapas men: [boho]
+  jodi men: [boho, traditional]
+  chola men: [boho]
+
+# Footwear and accessories use their own keyword lists (the garment lists above
+# are about cuts and fabrics). Palette, fabric, priors and thresholds are shared.
+accessory_styles:
+  minimalist:
+    strong: ["minimal", "minimalist", "plain", "essential", "essentials", "basic", "clean"]
+    medium: ["solid", "monochrome", "all black", "all white", "triple black", "slim wallet",
+             "everyday"]
+    weak: ["leather", "canvas"]
+    negative: ["printed", "graphic", "embroidered", "sequin", "logo", "camo", "floral"]
+  classic:
+    strong: ["formal", "derby", "derbys", "oxford", "oxfords", "brogue", "brogues", "monk",
+             "monks", "loafer", "loafers", "tie", "ties", "bow tie", "cufflinks", "pocket square",
+             "briefcase", "leather belt", "formal belt", "aviator", "aviators", "wayfarer",
+             "chronograph", "penny", "tassel loafers", "chelsea", "lapel pin"]
+    medium: ["leather", "suede", "wallet", "card holder", "laptop bag", "office", "reversible",
+             "genuine leather", "classic", "polished", "office bag", "dress shoes"]
+    weak: ["brown", "tan", "black"]
+    negative: ["graphic", "chunky", "neon"]
+  streetwear:
+    strong: ["sneaker", "sneakers", "high top", "high tops", "chunky", "snapback", "trucker",
+             "bucket hat", "beanie", "crossbody", "sling bag", "graphic", "skate", "streetwear",
+             "dad cap", "baseball cap", "clogs", "slides"]
+    medium: ["cap", "caps", "tote", "backpack", "canvas", "logo", "embroidered cap", "socks",
+             "crew socks", "chain", "cuban chain", "bandana", "puffer"]
+    weak: ["street", "print", "printed", "oversized"]
+    negative: ["formal", "office", "ethnic"]
+  boho:
+    strong: ["kolhapuri", "kolhapuris", "macrame", "jute", "beaded", "handwoven", "tassel",
+             "block print", "ikat", "woven", "tie dye", "crochet", "straw", "kantha", "boho",
+             "bohemian", "shell", "upcycled"]
+    medium: ["handcrafted", "handmade", "fringe", "embroidered tote", "fabric", "patchwork",
+             "rope", "bamboo"]
+    weak: ["printed", "cotton"]
+    negative: ["formal", "sports", "gym"]
+  sporty:
+    strong: ["running", "sports shoes", "sports shoe", "training", "gym", "performance",
+             "athletic", "running shoes", "gym bag", "trail", "walking shoes", "badminton",
+             "football", "dri fit", "sweatband", "wristband", "ankle socks"]
+    medium: ["sport", "sports", "active", "workout", "cushioned", "mesh", "duffle", "duffel",
+             "lightweight", "breathable", "no show socks"]
+    weak: ["comfort"]
+    negative: ["formal", "leather", "ethnic", "wedding"]
+  glam:
+    strong: ["embellished", "sequin", "zari", "velvet", "kalangi", "brooch", "wedding", "groom",
+             "party wear", "metallic", "rhinestone", "stone work", "diamante", "crystal",
+             "zardozi", "sehra"]
+    medium: ["gold", "gold plated", "silk", "festive", "brocade", "patent", "embroidered",
+             "studded", "party", "shimmer", "pearl"]
+    weak: ["silver", "luxe", "luxury"]
+    negative: ["gym", "running"]
+  ethnic_fusion:
+    strong: ["indo western", "fusion"]
+    medium: ["ethnic sneakers", "printed mojari"]
+    weak: []
+    negative: []
+  traditional:
+    strong: ["mojari", "mojaris", "jutti", "juttis", "nagra", "nagras", "khussa", "safa", "pagdi",
+             "pagri", "turban", "dupatta", "stole", "shawl", "kada", "rudraksha", "mala",
+             "ethnic", "ethnic footwear", "kolhapuri", "kolhapuris"]
+    medium: ["handloom", "khadi", "traditional", "pashmina", "kashmiri", "banarasi", "festive"]
+    weak: ["silk", "embroidered"]
+    negative: ["sneaker", "sneakers", "gym"]

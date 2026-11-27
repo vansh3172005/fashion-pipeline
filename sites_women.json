@@ -1,0 +1,1639 @@
+[
+ {
+  "name": "jaywalking",
+  "base_url": "https://jaywalking.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "womens-wear"
+  ]
+ },
+ {
+  "name": "bluorng",
+  "base_url": "https://bluorng.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "midnightlaw",
+  "base_url": "https://midnightlaw.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "toffle",
+  "base_url": "https://toffle.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "noughtone",
+  "base_url": "https://noughtone.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "bomaachi",
+  "base_url": "https://bomaachi.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "women"
+  ]
+ },
+ {
+  "name": "doodlage",
+  "base_url": "https://doodlage.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "papadontpreach",
+  "base_url": "https://papadontpreach.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "duskattire",
+  "base_url": "https://duskattire.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "femmella",
+  "base_url": "https://femmella.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "saltattire",
+  "base_url": "https://saltattire.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "rareism",
+  "base_url": "https://rareism.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "kazo",
+  "base_url": "https://kazo.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "thelabellife",
+  "base_url": "https://thelabellife.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "huemn",
+  "base_url": "https://huemn.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "labelearthen",
+  "base_url": "https://labelearthen.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "shop-women",
+   "womens-wear"
+  ]
+ },
+ {
+  "name": "cottonworld",
+  "base_url": "https://cottonworld.net",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "sassafras",
+  "base_url": "https://sassafras.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "thesummerhouse",
+  "base_url": "https://thesummerhouse.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "kharakapas",
+  "base_url": "https://kharakapas.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "women"
+  ]
+ },
+ {
+  "name": "nicobar",
+  "base_url": "https://nicobar.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "women",
+   "all-women"
+  ]
+ },
+ {
+  "name": "blissclub",
+  "base_url": "https://blissclub.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "chkokko",
+  "base_url": "https://chkokko.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "all-womens"
+  ]
+ },
+ {
+  "name": "kicaactive",
+  "base_url": "https://kicaactive.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "silvertraq",
+  "base_url": "https://silvertraq.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "fuaark",
+  "base_url": "https://fuaark.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "women"
+  ]
+ },
+ {
+  "name": "boldfit",
+  "base_url": "https://www.boldfit.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "women"
+  ]
+ },
+ {
+  "name": "nobero",
+  "base_url": "https://nobero.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "all-womencat23",
+   "clearance-womens"
+  ]
+ },
+ {
+  "name": "bohemiandream",
+  "base_url": "https://bohemiandream.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "saundh",
+  "base_url": "https://saundh.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "ituvana",
+  "base_url": "https://ituvana.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "missprint",
+  "base_url": "https://missprint.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "chumbak",
+  "base_url": "https://chumbak.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "thekaftancompany",
+  "base_url": "https://thekaftancompany.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "rustorange",
+  "base_url": "https://rustorange.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "gulabojaipur",
+  "base_url": "https://gulabojaipur.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "shopmulmul",
+  "base_url": "https://shopmulmul.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "okhai",
+  "base_url": "https://okhai.org",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "tjori",
+  "base_url": "https://tjori.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "chidiyaa",
+  "base_url": "https://chidiyaa.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "kalakaarihaath",
+  "base_url": "https://kalakaarihaath.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "houseofmasaba",
+  "base_url": "https://houseofmasaba.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "lavanyathelabel",
+  "base_url": "https://lavanyathelabel.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "ridhimehra",
+  "base_url": "https://ridhimehra.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "seemagujral",
+  "base_url": "https://seemagujral.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "aisharao",
+  "base_url": "https://aisharao.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "torani",
+  "base_url": "https://torani.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "women-all",
+   "light-ethnic-womens",
+   "new-arrivals-women"
+  ]
+ },
+ {
+  "name": "karagiri",
+  "base_url": "https://karagiri.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "tilfi",
+  "base_url": "https://tilfi.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "ekaya",
+  "base_url": "https://ekaya.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "weaverstory",
+  "base_url": "https://weaverstory.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "libas",
+  "base_url": "https://libas.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women",
+  "max_pages": 100
+ },
+ {
+  "name": "westside",
+  "base_url": "https://westside.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "jaipurkurti",
+  "base_url": "https://jaipurkurti.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "suta",
+  "base_url": "https://suta.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "bunaai",
+  "base_url": "https://bunaai.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "aachho",
+  "base_url": "https://aachho.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "ambraee",
+  "base_url": "https://ambraee.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "janasya",
+  "base_url": "https://janasya.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "indoera",
+  "base_url": "https://indoera.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "scakhi",
+  "base_url": "https://scakhi.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "theindianethnicco",
+  "base_url": "https://theindianethnicco.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "houseofchikankari",
+  "base_url": "https://houseofchikankari.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "lakshita",
+  "base_url": "https://lakshita.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "vastramay",
+  "base_url": "https://vastramay.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "wforwoman",
+  "base_url": "https://wforwoman.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "shopforaurelia",
+  "base_url": "https://shopforaurelia.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "bonkerscorner",
+  "base_url": "https://bonkerscorner.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "veirdo",
+  "base_url": "https://veirdo.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ },
+ {
+  "name": "berrylush",
+  "base_url": "https://berrylush.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "littleboxindia",
+  "base_url": "https://littleboxindia.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "street9",
+  "base_url": "https://street9.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "stylestone",
+  "base_url": "https://stylestone.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "houseoffett",
+  "base_url": "https://houseoffett.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "default_gender": "women"
+ },
+ {
+  "name": "campussutra",
+  "base_url": "https://campussutra.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "women"
+  ]
+ },
+ {
+  "name": "capsul",
+  "base_url": "https://capsul.co.in",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  },
+  "women_collections": [
+   "streetwear-women",
+   "women-streetwear-pants"
+  ]
+ },
+ {
+  "name": "freakins",
+  "base_url": "https://freakins.com",
+  "platform": "shopify",
+  "currency": "INR",
+  "price_bands": {
+   "cheap": [
+    0,
+    999
+   ],
+   "affordable": [
+    1000,
+    2499
+   ],
+   "luxury": [
+    2500,
+    null
+   ]
+  }
+ }
+]

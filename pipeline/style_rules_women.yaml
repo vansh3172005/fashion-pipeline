@@ -1,0 +1,421 @@
+# Women's style rules (style_taxonomy_women.md, sections 5 and 7).
+# Phrases are in classify.norm() form: lowercase, no punctuation, whole words.
+# Additions to the taxonomy's starting lists are marked "# +".
+# The men's rules stay in style_rules.yaml; style.py loads one file per catalogue.
+version: 1
+style_ids: [minimalist, classic, streetwear, boho, sporty, glam, ethnic_fusion, traditional, edgy]
+thresholds: {min_score: 3, relative: 0.5, max_tags: 3}
+weights: {strong: 3, medium: 2, weak: 1, negative: -2, prior: 2, palette: 1, fabric: 1,
+          description_cap: 3}
+tie_order: [traditional, ethnic_fusion, glam, edgy, streetwear, sporty, boho, classic, minimalist]
+
+styles:
+  minimalist:
+    strong: ["minimalist", "minimal", "essential", "solid", "plain", "clean", "capsule",
+             "essentials", "basic tee", "everyday essential"]               # +
+    medium: ["slip dress", "straight fit", "wide leg trousers", "co ord", "knit top", "basic",
+             "relaxed fit", "monochrome", "ribbed", "rib knit", "tank top", "solid colour"]  # +
+    weak: ["neutral", "everyday", "effortless", "versatile"]
+    negative: ["graphic", "printed", "print", "embellished", "sequin", "embroidered", "ruffle",
+               "tie dye", "floral", "zari", "embroidery", "sequinned", "mirror work",
+               "bandhani", "block print", "checked", "striped", "polka", "leopard",
+               "ruffled", "frill", "lace"]                                    # +
+    palette: ["black", "white", "grey", "navy", "beige", "olive"]
+    fabrics: ["cotton", "linen", "wool", "viscose", "modal"]
+  classic:
+    strong: ["tailored", "blazer", "trench", "pencil skirt", "shirt dress", "workwear",
+             "power dressing", "formal", "formals", "work wear", "office wear", "waistcoat",
+             "pantsuit", "trench coat"]                                       # +
+    medium: ["wrap dress", "pleated", "pleats", "trousers", "button down", "striped", "checked",
+             "houndstooth", "office", "collared", "shirt", "polka dot", "a line skirt",
+             "sheath", "cigarette pants", "straight pants", "button up", "gingham",
+             "pinstripe", "boat neck", "classic"]                             # +
+    weak: ["timeless", "smart casual", "structured", "midi", "elegant", "sophisticated"]
+    negative: ["oversized", "graphic", "cropped", "distressed", "neon", "baggy", "crop top",
+               "kurta", "kurti", "saree", "lehenga", "ripped", "tie dye"]   # +
+    palette: ["white", "black", "navy", "brown", "grey", "beige"]
+    fabrics: ["cotton", "wool", "viscose"]
+  streetwear:
+    strong: ["streetwear", "oversized", "graphic", "baggy", "cargo", "drop shoulder", "varsity",
+             "hoodie", "street wear", "boxy fit", "oversized tee", "baby tee", "parachute"]  # +
+    medium: ["wide leg jeans", "puffer", "acid wash", "patchwork", "anime", "utility", "boxy",
+             "co ord", "cargos", "sweatshirt", "joggers", "jogger", "bomber", "slogan",
+             "typography", "skater", "denim jacket", "tracksuit", "hoodies", "y2k",
+             "korean", "baggy jeans", "boyfriend", "mom jeans", "cargo pants"]  # +
+    weak: ["urban", "street", "logo", "print", "printed", "slogan", "tee", "t shirt", "denim"]
+    negative: ["formal", "tailored", "saree", "kurta", "lehenga", "bridal", "kurti", "anarkali",
+               "gown", "silk", "embroidered", "zari"]                       # +
+    palette: []
+    fabrics: ["fleece", "denim"]
+  boho:
+    strong: ["boho", "bohemian", "tiered", "peasant", "crochet", "macrame", "fringe", "tassel",
+             "ikat", "broderie", "eyelet", "kaftan", "sarong", "caftan", "kaftans", "schiffli",
+             "tassels", "boho chic", "hand block printed", "block printed dress", "shibori",
+             "batik", "kantha", "smocked", "cutwork", "tie dye"]             # +
+    medium: ["maxi", "flowy", "lace", "paisley", "floral", "block print", "resort",
+             "hand painted", "ruffle", "ruffled", "frill", "frills", "bagru", "dabu",
+             "sanganeri", "ajrakh print", "beach", "vacation", "holiday", "tropical",
+             "hand block", "patchwork", "embroidered dress", "puff sleeve", "gathered",
+             "printed dress", "floral dress", "hakoba", "applique", "handwoven", "earthy",
+             "summer dress", "sundress", "cotton dress", "linen dress", "mulmul"]  # +
+    weak: ["earthy", "relaxed", "breezy", "printed", "floral print", "cotton", "linen",
+           "summer", "handcrafted", "artisanal", "kalamkari"]
+    negative: ["formal", "tailored", "gym", "leather", "studded", "sequin", "sequinned",
+               "satin", "velvet", "blazer", "graphic", "anime", "bodycon", "sports",
+               "corset"]                                                      # +
+    palette: ["orange", "yellow", "brown", "green"]
+    fabrics: ["cotton", "linen", "viscose", "muslin"]
+  sporty:
+    strong: ["activewear", "athleisure", "movewear", "yoga", "gym", "training", "running",
+             "workout", "leggings", "sports bra", "dry fit", "quick dry", "moisture wicking",
+             "flare leggings", "biker shorts", "tennis skirt", "track pants", "trackpants",
+             "dri fit", "active wear", "sweat wicking", "skort", "cycling shorts"]  # +
+    medium: ["tights", "track pants", "joggers", "jogger", "performance", "biker shorts",
+             "compression", "athletic", "sports", "track jacket", "4 way stretch", "racerback",
+             "high waist leggings", "pockets leggings", "zip up", "windcheater", "tracksuit",
+             "shorts", "tank", "jersey"]                                      # +
+    weak: ["active", "stretch", "lounge", "sweat", "breathable", "stretchable"]
+    negative: ["lehenga", "saree", "embroidered", "sequin", "gown", "kurta", "kurti",
+               "silk", "jeans", "denim", "zari", "bridal", "party", "satin"]  # +
+    palette: []
+    fabrics: ["polyester", "nylon", "elastane"]
+  glam:
+    strong: ["sequin", "embellished", "gown", "cocktail", "party wear", "evening", "wedding",
+             "bridal", "sangeet", "reception", "zari", "lehenga", "sequinned", "sequins",
+             "sequined", "partywear", "mirror work", "zardozi", "swarovski", "crystal",
+             "stone work", "beaded", "glitter", "embellishment", "bead work", "gota",
+             "tissue", "organza", "embroidered lehenga", "hand embroidered", "red carpet",
+             "festive wear"]                                                 # +
+    medium: ["velvet", "satin", "metallic", "bodycon", "sharara", "gharara", "stone work",
+             "festive", "occasion", "statement", "shimmer", "corset", "net", "brocade",
+             "banarasi", "silk", "embroidered", "embroidery", "drape", "draped", "ruched",
+             "feather", "pearl", "dori", "thread work", "lurex", "foil", "lame", "tulle",
+             "one shoulder", "off shoulder", "slit", "jacquard", "kanjivaram",
+             "kanjeevaram", "georgette", "chiffon", "party"]                # +
+    weak: ["gold", "silver", "glitter", "luxe", "celebration", "golden", "rich", "royal",
+           "mini dress", "backless"]
+    negative: ["gym", "training", "plain tee", "basic", "joggers", "jogger", "sports",
+               "activewear", "everyday", "lounge", "cotton tee", "hoodie", "sweatshirt"]  # +
+    palette: ["black", "red", "purple"]
+    fabrics: ["silk", "velvet", "satin", "organza", "tissue", "net", "brocade"]
+  ethnic_fusion:
+    strong: ["indo western", "indowestern", "fusion", "kurta jacket", "jacket set", "cape set",
+             "dhoti pants", "crop top skirt", "pre draped saree", "saree gown", "dhoti saree",
+             "pre draped", "pre stitched saree", "ready to wear saree", "crop top lehenga",
+             "crop top with skirt", "crop top and skirt", "crop top with ethnic skirt",
+             "dhoti set", "cape gown", "lehenga gown", "kurta with jacket", "jacket kurta",
+             "indo western set", "drape saree", "saree dress", "kaftan set", "anarkali gown",
+             "pant saree", "dhoti skirt"]                                     # +
+    medium: ["asymmetric kurta", "layered kurta", "kurta with jacket", "co ord kurta", "shrug",
+             "ethnic dress", "lehenga with jacket", "belted saree", "ready to wear saree",
+             "cape", "ethnic skirt", "ethnic co ord", "kurta dress", "short kurti",
+             "kurti top", "ethnic top", "dhoti", "angrakha top", "ethnic jacket",
+             "koti", "kurta shirt", "jacket", "kaftan kurta", "high low kurta",
+             "tunic", "kimono", "ethnic print top", "ajrakh shirt", "jumpsuit",
+             "palazzo jumpsuit", "ethnic jumpsuit", "skirt set", "crop top", "fusion wear",
+             "ethnic co ord set", "flared pants set"]                         # +
+    weak: ["modern ethnic", "contemporary kurta", "ethnic print", "contemporary", "modern",
+           "ethnic"]
+    negative: ["gym", "training", "sports", "activewear"]
+    palette: []
+    fabrics: []
+  traditional:
+    strong: ["saree", "sari", "kurta", "kurti", "anarkali", "salwar", "patiala", "kurta set",
+             "palazzo set", "churidar", "lehenga choli", "ghagra", "sarees", "kurtas", "kurtis",
+             "salwar suit", "salwar kameez", "chaniya choli", "suit set", "dupatta set",
+             "kurta pant set", "sharara set", "gharara set", "angrakha", "chikankari",
+             "banarasi saree", "kanjivaram", "paithani", "patola"]          # +
+    medium: ["chikankari", "bandhani", "ajrakh", "kalamkari", "banarasi", "kanjivaram", "chanderi",
+             "patola", "phulkari", "handloom", "khadi", "dupatta", "sharara", "gharara",
+             "lucknowi", "leheriya", "lehariya", "bandhej", "jamdani", "maheshwari", "tussar",
+             "kota", "ikkat", "pochampally", "gota patti", "mul cotton", "kantha work",
+             "chikan", "mukaish", "kashida", "kasavu", "chettinad", "bagh", "sambalpuri",
+             "bhagalpuri", "tant", "linen saree", "blouse", "ethnic wear", "ethnicwear",
+             "straight kurta", "a line kurta", "suit"]                       # +
+    weak: ["ethnic", "festive", "puja", "diwali", "eid", "handwoven", "craft", "block print",
+           "traditional", "navratri", "karwa chauth", "teej", "pongal", "onam"]
+    negative: ["graphic", "oversized", "gym", "baggy", "studded", "anime", "hoodie", "denim",
+               "jeans"]                                                       # +
+    palette: []
+    fabrics: ["khadi", "cotton", "silk", "chanderi"]
+  edgy:
+    strong: ["edgy", "faux leather", "vegan leather", "leather", "studded", "studs", "corset",
+             "bustier", "cut out", "cutout", "punk", "grunge", "gothic", "biker", "moto",
+             "harness", "pu leather", "latex", "vinyl", "rock", "rockstar", "spikes",
+             "goth", "cut outs", "cutouts"]                                  # +
+    medium: ["chain", "hardware", "mesh", "sheer", "deconstructed", "distressed", "ripped",
+             "lace up", "spike", "all black", "chains", "grommet", "slashed", "shredded",
+             "raw hem", "skull", "patent", "safety pin", "fishnet", "bondage",
+             "structured shoulder", "padded shoulder", "combat", "suede"]    # +
+    weak: ["bold", "statement", "metallic", "edge", "rebel", "asymmetric", "asymmetrical",
+           "zipper", "zippers", "buckle", "buckles", "metal", "upcycled", "backless"]
+    negative: ["floral", "pastel", "ruffle", "bohemian", "peasant", "kurta", "saree", "kurti",
+               "lehenga", "anarkali", "ruffled", "frill", "tiered", "chikankari", "lace",
+               "bridal", "zari", "festive", "cotton kurta", "yoga", "gym"]   # +
+    palette: ["black", "grey"]
+    fabrics: ["leather", "denim"]
+
+# Descriptions often suggest what to pair an item with ("style it with a blazer"),
+# so garment nouns and dress-code words only count in the title, type, tags and
+# labelled fields.
+description_ignore: ["trousers", "blazer", "joggers", "jogger", "shorts", "kurta", "kurtas",
+  "kurti", "kurtis", "kurta set", "hoodie", "tee", "jeans", "saree", "sarees", "sari",
+  "lehenga", "lehenga choli", "dupatta", "palazzo set", "track pants", "trackpants",
+  "tracksuit", "jacket set", "formal", "formals", "tailored", "office", "office wear",
+  "workwear", "denim jacket", "co ord", "kurta jacket", "shrug", "cape", "jacket", "bomber",
+  "puffer", "cargo", "varsity", "streetwear", "street wear", "street", "urban", "party",
+  "wedding", "reception", "occasion", "festive", "evening", "cocktail", "sangeet", "bridal",
+  "gown", "leggings", "sports bra", "yoga", "gym", "running", "training", "workout",
+  "beach", "vacation", "holiday", "resort", "blouse", "suit", "suit set", "salwar", "churidar",
+  "sharara", "gharara", "skirt", "crop top", "tunic", "kimono", "shirt", "dhoti", "ethnic",
+  "ethnic wear", "traditional", "statement", "bold", "dark", "black", "edge", "mini",
+  "classic", "elegant", "basic", "everyday", "summer", "lace", "net", "silk", "georgette",
+  "chiffon", "sports", "shorts", "tank", "jersey", "rock", "metal", "chain"]
+# A style needs at least one strong or medium keyword (a brand prior alone is not enough);
+# palette, fabric and weak words alone cannot lift it above this score.
+no_evidence_cap: 2
+
+# Signature cues used by the conflict rules (section 3)
+cues:
+  embellishment: ["embellished", "embroidered", "embroidery", "sequin", "sequins", "sequinned",
+                  "sequined", "zari", "zardozi", "mirror work", "brocade", "velvet", "beaded",
+                  "stone work", "thread work", "metallic", "foil", "gota", "gota patti",
+                  "swarovski", "crystal", "glitter", "bead work", "embellishment",
+                  "hand embroidered", "dabka", "mukaish", "cutdana", "kundan"]
+  glam_strong: ["sequin", "sequins", "sequinned", "sequined", "embellished", "party",
+                "party wear", "partywear", "cocktail", "bridal", "sangeet", "reception",
+                "swarovski", "crystal", "stone work", "glitter", "beaded", "bead work",
+                "heavy embroidery", "heavily embroidered", "wedding", "zardozi", "cutdana"]
+  fusion: ["indo western", "indowestern", "fusion"]
+  saree_fusion: ["pre draped", "pre stitched", "saree gown", "belted saree", "dhoti saree",
+                 "ready to wear", "readymade saree", "drape saree", "pant saree",
+                 "saree dress", "concept saree"]
+  set_bottom: ["palazzo", "palazzos", "churidar", "salwar", "dupatta", "patiala", "sharara",
+               "gharara", "pants", "pant", "trousers", "afghani"]
+  western_garment: ["jacket", "cape", "jeans", "denim", "trousers", "skirt", "shrug", "blazer",
+                    "koti", "jackets", "capes", "shrugs", "dhoti pants", "jumpsuit"]
+  lehenga_fusion: ["jacket", "cape", "crop top", "indo western", "indowestern", "shrug"]
+  print: ["print", "printed", "prints", "graphic", "pattern", "patterned", "floral", "paisley",
+          "tie dye", "camo", "slogan", "logo", "typography", "abstract", "geometric",
+          "bandhani", "leheriya", "lehariya", "ikat", "ajrakh", "kalamkari", "block print",
+          "polka", "checked", "striped", "stripes", "checks", "leopard", "animal print",
+          "motif", "motifs", "shibori", "batik", "bagru", "dabu"]
+  boho_dress: ["floral", "ikat", "tie dye", "broderie", "tiered", "eyelet", "block print",
+               "block printed", "hand block", "kaftan", "bohemian", "boho", "crochet",
+               "shibori", "batik", "bagru", "dabu", "sanganeri", "smocked", "schiffli",
+               "paisley", "ruffle", "ruffled", "printed", "kantha", "hakoba", "cutwork",
+               "lace"]
+  boho_western_indian: ["block print", "block printed", "hand block", "ikat", "bagru", "dabu",
+                        "sanganeri", "kalamkari", "ajrakh", "batik", "shibori", "kantha",
+                        "tie dye", "bandhani", "leheriya", "lehariya"]
+  indian_gown: ["lehenga gown", "cape gown", "indo western gown", "anarkali gown",
+                "indowestern gown", "ethnic gown", "kurta gown", "saree gown", "dupatta",
+                "zari", "banarasi", "chikankari", "jacket gown"]
+  shine: ["sequin", "sequins", "sequinned", "sequined", "metallic", "velvet", "satin",
+          "glitter", "shimmer", "lurex", "foil"]
+  hard: ["leather", "faux leather", "vegan leather", "pu leather", "studded", "studs", "stud",
+         "chain", "chains", "mesh", "cut out", "cutout", "cut outs", "corset", "bustier",
+         "spike", "spikes", "harness", "hardware", "latex", "vinyl", "buckle", "buckles",
+         "zipper", "grommet", "eyelets", "biker", "moto"]
+  edgy_street: ["punk", "grunge", "distressed", "studded", "ripped", "gothic", "goth", "skull",
+                "rock", "chain", "chains", "spikes"]
+  sport: ["gym", "training", "running", "activewear", "athleisure", "dry fit", "dri fit",
+          "performance", "sports", "workout", "quick dry", "yoga", "movewear", "active wear"]
+  street_bottom: ["oversized", "baggy", "cargo", "cargos", "graphic", "wide leg", "parachute"]
+  party_silhouette: ["corset", "bustier", "cut out", "cutout", "bodycon", "cut outs",
+                     "backless", "one shoulder", "off shoulder", "slit"]
+
+neutral_colors: [black, white, grey, navy, beige]
+
+# Section 4 brand priors, keyed by site name (sites_women.json "name") or vendor.
+# The taxonomy's list first (some of those brands had no usable feed), then the
+# sites added after checking feeds (verify in the audit).
+brand_priors:
+  jaywalking: [streetwear, edgy]
+  bluorng: [streetwear]
+  midnightlaw: [streetwear, edgy]
+  midnight law: [streetwear, edgy]
+  toffle: [streetwear]
+  bomaachi: [streetwear]
+  smokewear: [streetwear, edgy]
+  noughtone: [streetwear, edgy]
+  urbansuburban: [boho, classic]
+  papadontpreach: [edgy, ethnic_fusion]
+  papa dont preach: [edgy, ethnic_fusion]
+  doodlage: [edgy, ethnic_fusion]
+  bungalow8: [edgy, ethnic_fusion]
+  thewishingtree: [edgy, ethnic_fusion]
+  anomaly: [minimalist]
+  meesha: [minimalist, classic]
+  anavila: [minimalist, traditional]
+  clarache: [minimalist, classic]
+  haseena: [minimalist]
+  duskattire: [classic, minimalist]
+  quaclothing: [classic]
+  femmella: [classic, minimalist]
+  vanaras: [classic, minimalist]
+  ishaavi: [minimalist, boho]
+  truebrowns: [minimalist, ethnic_fusion]
+  twopointtwo: [minimalist, classic]
+  blissclub: [sporty]
+  hrx: [sporty]
+  cultsport: [sporty]
+  chkokko: [sporty]
+  aastey: [sporty]
+  bohemiandream: [boho]
+  saundh: [boho, ethnic_fusion]
+  bohochic: [boho, glam]
+  ituvana: [boho]
+  biba: [traditional, ethnic_fusion]
+  beindie: [ethnic_fusion, traditional]
+  houseofindya: [ethnic_fusion, glam]
+  libas: [traditional, glam]
+  fabindia: [traditional, minimalist]
+  kalkifashion: [glam, edgy, ethnic_fusion]
+  mohey: [glam, traditional]
+  andaazfashion: [glam, traditional]
+  # sites added after checking feeds
+  saltattire: [classic]
+  rareism: [classic, minimalist]
+  kazo: [classic]
+  thelabellife: [classic, minimalist]
+  huemn: [edgy, minimalist]
+  labelearthen: [traditional, boho]
+  cottonworld: [minimalist, classic]
+  sassafras: [classic]
+  thesummerhouse: [minimalist, boho]
+  kharakapas: [boho]
+  nicobar: [minimalist, boho]
+  kicaactive: [sporty]
+  silvertraq: [sporty]
+  fuaark: [sporty]
+  boldfit: [sporty]
+  nobero: [streetwear, sporty]
+  missprint: [boho, traditional]
+  chumbak: [boho]
+  thekaftancompany: [boho]
+  rustorange: [boho, ethnic_fusion]
+  gulabojaipur: [boho, traditional]
+  shopmulmul: [boho, traditional]
+  okhai: [boho, traditional]
+  tjori: [boho, traditional]
+  chidiyaa: [traditional, boho]
+  kalakaarihaath: [traditional]
+  houseofmasaba: [glam, boho]
+  lavanyathelabel: [glam, ethnic_fusion]
+  ridhimehra: [glam]
+  seemagujral: [glam, traditional]
+  aisharao: [glam, boho]
+  torani: [glam, boho]
+  karagiri: [traditional, glam]
+  tilfi: [traditional, glam]
+  ekaya: [traditional]
+  weaverstory: [traditional]
+  jaipurkurti: [traditional]
+  suta: [traditional, minimalist]
+  bunaai: [traditional, ethnic_fusion]
+  aachho: [traditional]
+  ambraee: [traditional]
+  janasya: [traditional, ethnic_fusion]
+  indoera: [traditional]
+  scakhi: [traditional]
+  theindianethnicco: [traditional, ethnic_fusion]
+  houseofchikankari: [traditional]
+  lakshita: [traditional, ethnic_fusion]
+  vastramay: [traditional, ethnic_fusion, glam]
+  wforwoman: [ethnic_fusion, traditional]
+  shopforaurelia: [traditional]
+  bonkerscorner: [streetwear]
+  veirdo: [streetwear]
+  campussutra: [streetwear]
+  freakins: [streetwear]
+
+# Footwear and accessories use their own keyword lists. Palette, fabric,
+# priors and thresholds are shared.
+accessory_styles:
+  minimalist:
+    strong: ["minimal", "minimalist", "plain", "essential", "essentials", "basic", "clean",
+             "dainty", "sleek"]
+    medium: ["solid", "monochrome", "all black", "all white", "everyday", "delicate", "thin",
+             "simple", "classic studs", "tiny"]
+    weak: ["leather", "canvas", "silver"]
+    negative: ["printed", "graphic", "embroidered", "sequin", "logo", "floral", "oxidised",
+               "kundan"]
+  classic:
+    strong: ["pumps", "ballerinas", "ballerina", "ballet flats", "loafers", "loafer",
+             "pearl studs", "tote", "satchel", "structured bag", "office bag", "laptop bag",
+             "watch", "aviator", "aviators", "wayfarer", "cat eye", "trench", "mary jane",
+             "mary janes", "slingback", "court shoes", "pointed toe"]
+    medium: ["leather", "suede", "wallet", "card holder", "office", "classic", "pearl", "pearls",
+             "gold plated", "kitten heels", "block heels", "mules", "handbag", "shoulder bag",
+             "work", "formal", "belt"]
+    weak: ["brown", "tan", "black", "nude", "beige"]
+    negative: ["graphic", "chunky", "neon", "oxidised", "kundan", "jhumka"]
+  streetwear:
+    strong: ["sneaker", "sneakers", "high top", "high tops", "chunky", "bucket hat", "beanie",
+             "crossbody", "graphic", "skate", "streetwear", "baseball cap", "dad cap",
+             "trucker", "platform sneakers", "chunky sneakers", "y2k"]
+    medium: ["cap", "caps", "backpack", "canvas", "logo", "socks", "bandana", "puffer",
+             "sling bag", "slides", "clogs", "claw clip", "scrunchie", "scrunchies"]
+    weak: ["street", "print", "printed", "oversized"]
+    negative: ["formal", "office", "ethnic", "kundan", "bridal"]
+  boho:
+    strong: ["macrame", "jute", "beaded", "handwoven", "tassel", "tassels", "block print", "ikat",
+             "woven", "tie dye", "crochet", "straw", "kantha", "boho", "bohemian", "shell",
+             "shells", "upcycled", "fringe", "rattan", "cane", "wicker", "seashell", "cowrie",
+             "kolhapuri", "kolhapuris", "thread earrings", "fabric earrings"]
+    medium: ["handcrafted", "handmade", "embroidered tote", "fabric", "patchwork", "rope",
+             "bamboo", "wooden", "terracotta", "tribal", "beads", "feather", "printed tote",
+             "boho earrings", "oxidised", "german silver", "dhokra", "mirror"]
+    weak: ["printed", "cotton", "earthy"]
+    negative: ["formal", "sports", "gym", "kundan", "bridal", "diamond"]
+  sporty:
+    strong: ["running", "sports shoes", "sports shoe", "training", "gym", "performance",
+             "athletic", "running shoes", "gym bag", "trail", "walking shoes", "yoga",
+             "dri fit", "sweatband", "wristband", "ankle socks", "yoga mat bag", "sports bag"]
+    medium: ["sport", "sports", "active", "workout", "cushioned", "mesh", "duffle", "duffel",
+             "lightweight", "breathable", "no show socks", "headband"]
+    weak: ["comfort"]
+    negative: ["formal", "leather", "ethnic", "wedding", "bridal", "heels"]
+  glam:
+    strong: ["embellished", "sequin", "sequins", "zari", "velvet", "wedding", "bridal",
+             "party wear", "partywear", "metallic", "rhinestone", "rhinestones", "stone work",
+             "diamante", "crystal", "crystals", "zardozi", "kundan", "polki", "american diamond",
+             "ad", "cz", "cubic zirconia", "stiletto", "stilettos", "clutch", "potli", "statement",
+             "statement earrings", "glitter", "shimmer", "swarovski", "evening bag", "cocktail"]
+    medium: ["gold", "gold plated", "silk", "festive", "brocade", "patent", "embroidered",
+             "party", "pearl", "pearls", "high heels", "heels", "satin", "bow", "bows",
+             "chandelier", "maang tikka", "choker", "necklace set", "stone", "stones",
+             "rose gold", "glam"]
+    weak: ["silver", "luxe", "luxury", "golden", "sparkle"]
+    negative: ["gym", "running", "sports", "casual", "everyday"]
+  ethnic_fusion:
+    strong: ["indo western", "fusion", "ethnic sneakers"]
+    medium: ["printed mojari", "printed juttis", "embroidered sneakers", "ethnic sling",
+             "boho jhumka"]
+    weak: []
+    negative: []
+  traditional:
+    strong: ["mojari", "mojaris", "jutti", "juttis", "nagra", "nagras", "khussa", "dupatta",
+             "dupattas", "stole", "shawl", "kada", "jhumka", "jhumkas", "jhumki", "jhumkis",
+             "maang tikka", "tikka", "nath", "nose ring", "nose pin", "bangles", "bangle",
+             "payal", "payals", "anklet", "anklets", "mangalsutra", "temple jewellery",
+             "temple", "kamarbandh", "passa", "matha patti", "haath phool", "hath phool",
+             "chandbali", "chandbalis", "potli", "batua", "ethnic", "ethnic footwear",
+             "kolhapuri", "kolhapuris", "parandi", "juda pin", "meenakari", "kundan",
+             "polki", "jadau", "oxidised", "phulkari", "bandhani", "pashmina", "kashmiri",
+             "banarasi", "chanderi"]
+    medium: ["handloom", "khadi", "traditional", "festive", "silk", "gota", "mirror work",
+             "oxidized", "german silver", "kalamkari", "ajrakh", "leheriya", "lehariya",
+             "brass", "antique"]
+    weak: ["embroidered", "gold"]
+    negative: ["sneaker", "sneakers", "gym", "running", "office"]
+  edgy:
+    strong: ["studded", "studs", "spike", "spikes", "chain", "chains", "chunky chain",
+             "combat boots", "combat", "biker boots", "harness", "punk", "gothic", "goth",
+             "skull", "safety pin", "grunge", "rock"]
+    medium: ["boots", "ankle boots", "chelsea boots", "platform boots", "leather jacket",
+             "buckle", "buckles", "metal", "hardware", "patent", "black leather", "lace up boots",
+             "chunky", "cuff", "ear cuff", "edgy", "snake", "croc"]
+    weak: ["black", "bold", "dark"]
+    negative: ["floral", "pastel", "bridal", "kundan", "pearl", "dainty", "ethnic", "jhumka"]
